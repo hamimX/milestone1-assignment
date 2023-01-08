@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+
+/* header */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner {
+    padding: 216px 300px 166px 876px;
+    text-align: right;
+}
+
+.title {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.description {
+    color: white;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 26px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* failure style section */
+
+.what-to-do {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    margin: 131px 210px;
+}
+
+.wtd-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.wtd-description {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-list {
+    color: #444343;
+    list-style: none;
+}
+
+.failure-list li::marker {
+    content: '✓';
+    color: green;
+}
+
+
+/* My Plan Section */
+
+.plan {
+    margin: 130px 230px;
+    width: 1140px;
+}
+
+.plan-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.plan-title {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.item-description {
+    text-align: center;
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.plan-box-item {
+    text-align: center;
+}
+
+.item-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+
+/* watch styles */
+
+.watch {
+    width: 1140px;
+    height: 300px;
+    margin: 130px 230px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+}
+
+.wb {
+    padding: 59px 617px 59px 64px;
+}
+
+.wt {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
+/* footer section style */
+
+.footer {
+    margin-left: auto;
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    gap: 331px;
+    padding: 121px 219px 138px 230px;
+}
+
+.title-f {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.description-f {
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.sub-input {
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 21px 158px 22px 21px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #151414;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.btn-sub {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 36px;
+    background: #005FAC;
+    border-radius: 10px;
+    border: 0px;
+}
